@@ -1556,11 +1556,11 @@ With a prefix ARG invalidates the cache first."
    ((projectile-verify-files projectile-grails) 'grails)
    ((projectile-verify-files projectile-rebar) 'rebar)
    ((projectile-verify-files projectile-sbt) 'sbt)
+   ((projectile-verify-files projectile-rust-cargo) 'rust-cargo)
    ((projectile-verify-files projectile-make) 'make)
    ((projectile-verify-files projectile-gulp) 'gulp)
    ((projectile-verify-files projectile-grunt) 'grunt)
    ((projectile-verify-files projectile-haskell-cabal) 'haskell-cabal)
-   ((projectile-verify-files projectile-rust-cargo) 'rust-cargo)
    ((funcall projectile-go-function) 'go)
    (t 'generic)))
 
